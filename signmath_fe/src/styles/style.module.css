@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap");
+
+.home {
+  padding: 25px 50px 0px 50px;
+}
+
+.item_card {
+  width: 12rem;
+  box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.5);
+}
+
+.btn_card {
+  /* width: 12rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.5);
+}
+
+.lesson_card {
+  border-radius: 20px;
+  width: 10rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.5);
+}
+
+.sp_card {
+  border-radius: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px;
+  box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  color:#973333;
+}
+
+.img_item_card {
+  position: absolute;
+  right: -3rem;
+  bottom: 0;
+}
+
+h1 {
+  font-family: "Bubblegum Sans", cursive; 
+  color: #0fc0c0;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn_style{
+  border-radius: '15px';
+  padding: '8px 30px 8px 30px';
+  font-weight: 'bold', 
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}

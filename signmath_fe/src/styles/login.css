@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  padding: 20px;
+  background-color: #f1f5f9;
+  height: 100vh;
+}
+
+/* .grid-container {
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+      "section section";
+} */
+
+.grid-item {
+  grid-area: image;
+  /* background-color: red; */
+}
+
+.content {
+  grid-area: section;
+  background-color: #fff;
+}
+
+.bottom{
+  grid-area: footer;
+  background-color: #fff;
+}
+
+.log-form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  /* justify-content: flex-start; */
+  padding: 20px 60px 0px 60px;
+}
+
+.grid-container {
+  font-family: 'Bubblegum Sans', cursive;
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  /* align-items: center; */
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "image section";
+}
